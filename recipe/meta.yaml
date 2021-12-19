@@ -28,6 +28,7 @@ requirements:
     - r-base
     - r-matrix
     - r-ggplot2
+    - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
     - r-sp >=1.4_5
@@ -36,6 +37,7 @@ requirements:
     - r-base
     - r-matrix
     - r-ggplot2
+    - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
     - r-sp >=1.4_5
