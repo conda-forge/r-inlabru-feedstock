@@ -27,19 +27,23 @@ requirements:
   host:
     - r-base
     - r-matrix
-    - r-ggplot2
+    - r-matrixmodels
+    - r-magrittr
     - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
+    - r-rlang
     - r-sp >=1.4_5
     - r-withr
   run:
     - r-base
     - r-matrix
-    - r-ggplot2
+    - r-matrixmodels
+    - r-magrittr
     - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
+    - r-rlang
     - r-sp >=1.4_5
     - r-withr
 
