@@ -1,4 +1,4 @@
-{% set version = "2.4.0" %}
+{% set version = "2.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/inlabru_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/inlabru/inlabru_{{ version }}.tar.gz
-  sha256: aee86cb5d2014b37839ee4756a4bafdd77e8a9ee87053220ae0f50347f69c361
+  sha256: 942316a5582ad2bc39376e5131e368c75e22869f02d6159713fa8e7f8b0c83ac
 
 build:
   merge_build_host: true  # [win]
@@ -27,19 +27,23 @@ requirements:
   host:
     - r-base
     - r-matrix
-    - r-ggplot2
+    - r-matrixmodels
+    - r-magrittr
     - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
+    - r-rlang
     - r-sp >=1.4_5
     - r-withr
   run:
     - r-base
     - r-matrix
-    - r-ggplot2
+    - r-matrixmodels
+    - r-magrittr
     - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
+    - r-rlang
     - r-sp >=1.4_5
     - r-withr
 
