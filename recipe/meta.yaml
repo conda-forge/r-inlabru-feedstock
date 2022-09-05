@@ -29,6 +29,7 @@ requirements:
     - r-matrix
     - r-matrixmodels
     - r-magrittr
+    - r-patchwork
     - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
@@ -40,6 +41,7 @@ requirements:
     - r-matrix
     - r-matrixmodels
     - r-magrittr
+    - r-patchwork
     - r-plyr
     - r-rgdal >=1.5.8
     - r-rgeos
