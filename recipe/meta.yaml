@@ -1,4 +1,4 @@
-{% set version = "2.5.3" %}
+{% set version = "2.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/inlabru_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/inlabru/inlabru_{{ version }}.tar.gz
-  sha256: 2a017dc0c982d6af7e109fe322c8f61221b3d91abdd0bab4d804384b35ab5711
+  sha256: 40bb8e059084b117148c88692f45346e83202f12d0506662c85a38a605e0523a
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
