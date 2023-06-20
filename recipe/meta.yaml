@@ -26,29 +26,31 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-dplyr
+    - r-lifecycle
     - r-magrittr
     - r-matrix
     - r-matrixmodels
-    - r-patchwork
     - r-plyr
-    - r-rgdal >=1.5.8
-    - r-rgeos
     - r-rlang
     - r-sf
     - r-sp >=1.4_5
+    - r-terra
+    - r-tibble
     - r-withr
   run:
     - r-base
+    - r-dplyr
+    - r-lifecycle
     - r-magrittr
     - r-matrix
     - r-matrixmodels
-    - r-patchwork
     - r-plyr
-    - r-rgdal >=1.5.8
-    - r-rgeos
     - r-rlang
     - r-sf
     - r-sp >=1.4_5
+    - r-terra
+    - r-tibble
     - r-withr
 
 test:
