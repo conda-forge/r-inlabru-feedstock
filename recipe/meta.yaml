@@ -1,4 +1,4 @@
-{% set version = "2.9.0" %}
+{% set version = "2.10.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/inlabru_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/inlabru/inlabru_{{ version }}.tar.gz
-  sha256: 97f767b6b8710ec4eb6d06183e87a318e93d85c9953e3e476b9a269dfaac0aa5
+  sha256: bd4ea720b943acd67aa02c0e179d9d027f1baa4b0edb949c9d335df42db68688
 
 build:
   merge_build_host: true  # [win]
