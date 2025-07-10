@@ -1,4 +1,4 @@
-{% set version = "2.12.0" %}
+{% set version = "2.13.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/inlabru_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/inlabru/inlabru_{{ version }}.tar.gz
-  sha256: e3de280a128c0e04d134d77c37d37a1fb42e261e3a4e5984b54ff01065d0d2a6
+  sha256: b2b164c58bd323c514a7b8d66a48c71477394833ed987baf55e53aa9cd4320f9
 
 build:
   number: 0
